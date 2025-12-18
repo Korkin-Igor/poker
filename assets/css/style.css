@@ -1,0 +1,121 @@
+/* ========== Общее ========== */
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Science Gothic', sans-serif;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px
+}
+
+/* ========== Баланс ========== */
+
+.balance {
+    color: gold;
+
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.balance > h4,
+.balance > span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* ========== Ставка ========== */
+
+.bet {
+    display: flex;
+    gap: 10px;
+}
+
+#bet-input {
+    width: 110px;
+}
+
+/* ========== Карты ========== */
+
+.cards {
+    display: flex;
+    gap: 20px
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.card {
+    width: 140px;
+    height: 210px;
+
+    background-image: url("../img/B.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ========== Кнопки ========== */
+
+.select-btn-wrapper > button {
+    cursor: pointer;
+
+    border: none;
+
+    font-size: 18px;
+
+    padding: 0 5px;
+
+    transition: .1s;
+}
+
+.mainBtn {
+    padding: 4px 40px;
+    margin-top: 20px;
+
+    cursor: pointer;
+
+    background-color: #4e1414;
+    opacity: 80%;
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+
+    border: none;
+    border-radius: 30px;
+
+    transition: .5s;
+}
+
+.mainBtn:hover {
+    opacity: 100%;
+    transition: .5s;
+}
+
+.finish {
+    font-size: 30px;
+}
